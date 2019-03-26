@@ -1,0 +1,97 @@
+
+.mainDiv{
+  font-size: 20px;
+}
+.menuDiv{
+	background: #a1d6f7;
+	height: 50px;
+	color: white;
+}
+.menuCenterDiv{
+	margin: 0 auto;
+	width: 1200px;
+}
+.mainArea{
+   width:1200px;
+   margin: 0 auto;
+}
+.mainArea main article p {
+   text-align:justify;
+}
+.twoColumns p{
+   width: 550px;
+   float: left;
+   margin: 20px;
+   height: 130px;
+}
+.breadCrumbs, .copyRightSpan{
+   font-size: 15px; 
+}
+.header1Center{
+   margin:10px;
+   color:rgb(134, 156, 202);
+   text-align:center;
+}
+.footer{
+    background: #a1d6f7;
+	height: 70px;
+}
+.socialIcon{
+  display:inline-block;
+  background: url('images/spritesheet.png');
+  padding: 1px;
+}
+#sprite-icon_facebook {
+     width: 33px;
+     height: 33px;
+     background-position: -5px -80px;
+ }
+
+#sprite-icon_twitter {
+    width: 33px;
+    height: 33px;
+    background-position: -48px -80px;
+ }
+
+#sprite-icon_vkontakte {
+   width: 33px;
+   height: 33px;
+   background-position: -91px -80px;
+ }
+ #sprite-examclouds {
+     width: 53px;
+     height: 45px;
+     background-position: -5px -5px;
+ }
+ .menuImageDiv{
+ 	 display: inline-block;
+     float:left;
+     background: url('images/spritesheet.png');
+     margin: 0 40px 0 0;
+}
+.menuItem{
+	float: left;
+	display: inline-block;
+	margin: 0 40px 0 0;
+}
+.javaacupImg{
+	width: 100px;
+	height: 100px;
+}
+.javaacupDiv{
+	text-align: center;
+}
+.emailSpan{
+	float: right;
+}
+.emailSpan a{
+	color: white;
+	font-size: 15px;
+}
+.footer .menuCenterDiv a{
+	text-decoration: none;
+}
+
+
+
+

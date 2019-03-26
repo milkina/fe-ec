@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <LINK TYPE="text/css" REL="stylesheet" HREF="my-css.css">
+	<meta charset="utf-8">
+	<title>Уроки по Java для начинающих</title>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage" >
+   <div class="mainDiv">
+     <div class="menuDiv">
+     	<div class="menuCenterDiv">
+     	        <div id="sprite-examclouds" class="menuImageDiv"></div>
+				<div class="menuItem">Курсы</div>
+				<div class="menuItem">Тесты и вопросы</div>
+				<div class="menuItem">Статьи</div>
+				<div class="menuItem">Личный кабинет</div>
+		</div>
+     </div>
+     <div class="mainArea">
+	     	<div class="breadCrumbs">Главная/Java Core</div>
+     	    <main>
+     	    	<article>
+        			  <h1 class="header1Center">Java Core</h1>
+        			  <div class="javaacupDiv"><img src="images/javaacup.jpg" class="javaacupImg" alt="Java Core"></div>
+           			  <p>Начинаете изучать язык Java? Тогда вам сюда - на ExamClouds вы найдете полный список лекций по изучению Java Core.</p>
+					  <p>Каждый урок содержит домашние задания, вопросы и тесты по пройденным темам.</p>
+					  <div class="twoColumns">
+                      <p><strong><a title="Урок 1" href="http://www.examclouds.com/java/java-core-russian/lesson1">Урок 1</a></strong> - Особенности Java. История Java. Java SE/EE/ME. JVM, JRE, JDK. Компилятор и интерпретатор. Байт-код. Создание первого приложения. Компиляция и запуск из консоли.</p>
+					  <p><strong><a title="Урок 2" href="http://www.examclouds.com/java/java-core-russian/lesson2">Урок 2</a></strong> - Установка и начало работы с IntelliJ IDEA. Лексика языка. Примитивные типы. Рекомендации по именованию идентификаторов. Литералы и переменные.</p>
+					  <p><strong><a title="Урок 3" href="http://www.examclouds.com/java/java-core-russian/lesson3">Урок 3</a> - </strong>Преобразование примитивных типов. Консольный ввод/вывод.</p>
+					  <p><strong><a title="Урок 4" href="http://www.examclouds.com/java/java-core-russian/lesson4">Урок 4</a> -</strong>&nbsp;Операции.&nbsp;</p>
+					  <p><strong><a title="Урок 5" href="http://www.examclouds.com/java/java-core-russian/lesson5">Урок 5</a> -</strong>&nbsp;Управляющие операторы - ветвления -&nbsp;<em>if, switch</em>; цикла -&nbsp;<em>while, do/while, for</em>; перехода -&nbsp;<em>break, continue, return</em>. Массивы. Алгоритмы сортировки.&nbsp;</p>
+					  <p><strong><a title="Урок 6" href="http://www.examclouds.com/java/java-core-russian/lesson6">Урок 6</a> -&nbsp;</strong>VСS, git и GitHub.</p>
+					 <p><strong><a title="Урок 7" href="http://www.examclouds.com/java/java-core-russian/lesson7">Урок 7</a> -&nbsp;</strong>Введение в ООП.</p>
+					 <p><strong><a title="Урок 8" href="http://www.examclouds.com/java/java-core-russian/lesson8">Урок 8</a> -&nbsp;</strong>ООП.</p>
+					</div>
+      			     <p>&nbsp;</p>
+                     <p>Код с примерами на GitHub:&nbsp;<a href="https://github.com/milkina/java-core.git" target="_blank" rel="noopener noreferrer">https://github.com/milkina/java-core.git</a></p>
+                </article>
+            </main>
+            <div>
+                <form action="/jpa-1.0/select-category-for-exam">
+                             <input type="submit" value="Start Test">
+                             <input type="hidden" value="java-core-russian" name="TEST_PATH">
+                </form>
+                <form action="/jpa-1.0/select-categories-to-see-questions">
+                             <input type="hidden" value="java-core-russian" name="TEST_PATH">
+                             <input type="submit" value="Questions" id="startQuiz">
+                </form>
+            </div>
+            <div class="commentDiv" id="commentDiv">
+               <form action="/jpa-1.0/save-comment" name="addCommentForm" id="addCommentForm">
+              		<input type="hidden" name="COMMENT_TYPE" value="TEST">
+              		<input type="hidden" name="REFERENCE_ID" value="11">
+              		<BR>
+              		<p>0 Комментариев</p>
+              		<p>Оставьте свой комментарий:</p>
+              		<textarea rows="7" class="commentTextArea" maxlength="350" name="commentText" required id="commentText"></textarea><BR>
+              		<input type="button" value="Post" id="addComment" name="addComment"    onclick="addUserComment('/jpa-1.0')">
+              		<BR><BR>
+            	</form>
+        	</div>
+     </div>
+     <div class="footer">
+     	<div class="menuCenterDiv">
+     		<footer>
+				<span class="copyRightSpan">Copyright &#169; 2012-2019 ExamClouds</span>
+    			<a href="http://www.facebook.com/Examclouds" target="_blank" rel="nofollow">
+         			<div id="sprite-icon_facebook" class="socialIcon"></div>
+    			</a>
+    			<a href="http://vk.com/club44323672"  target="_blank" rel="nofollow">
+         			 <div id="sprite-icon_vkontakte" class="socialIcon"></div>
+    			</a>
+    			<a href="https://twitter.com/ExamClouds" target="_blank" rel="nofollow">
+        			<div id="sprite-icon_twitter" class="socialIcon"></div>
+                </a>
+    		    <span class="emailSpan"><a href="mailto:tatyana.milkina@gmail.com" class="contactUsEmail">tatyana.milkina@gmail.com</a></span>
+     		</footer>
+     	</div>
+     </div>
+   </div>
+</body>
+</html>
