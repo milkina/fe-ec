@@ -18,7 +18,7 @@
 .mainArea main article p {
    text-align:justify;
 }
-.twoColumns p{
+.twoColumns div{
    width: 550px;
    float: left;
    margin: 20px;
@@ -77,9 +77,8 @@
 .javaacupImg{
 	width: 100px;
 	height: 100px;
-}
-.javaacupDiv{
-	text-align: center;
+  display: block;
+  margin:0 auto;
 }
 .emailSpan{
 	float: right;
