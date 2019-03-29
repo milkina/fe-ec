@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <LINK TYPE="text/css" REL="stylesheet" HREF="my-css.css">
+    <LINK REL="stylesheet" HREF="css/style.css">
 	<meta charset="utf-8">
 	<title>Уроки по Java для начинающих</title>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage" >
    <div class="mainDiv">
-     <div class="menuDiv">
-     	<div class="menuCenterDiv">
-     	        <div id="sprite-examclouds" class="menuImageDiv"></div>
+     <div class="menu topMenu">
+     	<div class="menuCenterDiv" >
+     	  <div id="sprite-examclouds" class="menuImageDiv"></div>
 				<div class="menuItem">Курсы</div>
 				<div class="menuItem">Тесты и вопросы</div>
 				<div class="menuItem">Статьи</div>
@@ -21,7 +21,7 @@
      	    <main>
      	    	<article>
         			  <h1 class="header1Center">Java Core</h1>
-        			  <img src="images/javaacup.jpg" class="javaacupImg" alt="Java Core">
+        			  <img src="images/java-core.jpg" class="javaCoreImg" alt="Java Core">
            			  <p>Начинаете изучать язык Java? Тогда вам сюда - на ExamClouds вы найдете полный список лекций по изучению Java Core.</p>
 					        <p>Каждый урок содержит домашние задания, вопросы и тесты по пройденным темам.</p>
 					        <div class="twoColumns">
@@ -38,7 +38,7 @@
                   <p>Код с примерами на GitHub:&nbsp;<a href="https://github.com/milkina/java-core.git" target="_blank" rel="noopener noreferrer">https://github.com/milkina/java-core.git</a></p>
               </article>
             </main>
-            <div>
+            <div id="buttonDiv">
                 <form action="/jpa-1.0/select-category-for-exam">
                              <input type="submit" value="Start Test">
                              <input type="hidden" value="java-core-russian" name="TEST_PATH">
@@ -48,23 +48,21 @@
                              <input type="submit" value="Questions" id="startQuiz">
                 </form>
             </div>
-            <div class="commentDiv" id="commentDiv">
+            <div id="commentDiv">
                <form action="/jpa-1.0/save-comment" name="addCommentForm" id="addCommentForm">
               		<input type="hidden" name="COMMENT_TYPE" value="TEST">
               		<input type="hidden" name="REFERENCE_ID" value="11">
-              		<BR>
               		<p>0 Комментариев</p>
               		<p>Оставьте свой комментарий:</p>
-              		<textarea rows="7" class="commentTextArea" maxlength="350" name="commentText" required id="commentText"></textarea><BR>
-              		<input type="button" value="Post" id="addComment" name="addComment"    onclick="addUserComment('/jpa-1.0')">
-              		<BR><BR>
+              		<textarea rows="7" class="commentTextArea" maxlength="350" name="commentText" required id="commentText"></textarea>
+              		<p><input type="button" value="Post" id="addComment" name="addComment"    onclick="addUserComment('/jpa-1.0')"></p>
             	</form>
         	</div>
      </div>
-     <div class="footer">
+     <div class="footer menu">
      	<div class="menuCenterDiv">
      		<footer>
-				<span class="copyRightSpan">Copyright &#169; 2012-2019 ExamClouds</span>
+				<span class="copyRightSpan" style="color:black">Copyright &#169; 2012-2019 ExamClouds</span>
     			<a href="http://www.facebook.com/Examclouds" target="_blank" rel="nofollow">
          			<div id="sprite-icon_facebook" class="socialIcon"></div>
     			</a>
@@ -73,8 +71,8 @@
     			</a>
     			<a href="https://twitter.com/ExamClouds" target="_blank" rel="nofollow">
         			<div id="sprite-icon_twitter" class="socialIcon"></div>
-                </a>
-    		    <span class="emailSpan"><a href="mailto:tatyana.milkina@gmail.com" class="contactUsEmail">tatyana.milkina@gmail.com</a></span>
+          </a>
+    		  <span class="emailSpan"><a href="mailto:tatyana.milkina@gmail.com" class="contactUsEmail">tatyana.milkina@gmail.com</a></span>
      		</footer>
      	</div>
      </div>
